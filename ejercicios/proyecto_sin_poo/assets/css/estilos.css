@@ -1,0 +1,65 @@
+body, fieldset {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b1f21;
+    background-color: #e8ebe8;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+table, fieldset, h2 {
+    text-align: center;
+}
+
+fieldset, td, legend, label, input, nav ul li {
+    padding: 0.3rem;
+}
+
+fieldset, td, nav ul, nav ul li, .alerta_alerta_error, .alerta_alerta_exito {
+    border:3px solid #2b1f21;
+    margin: 0.3rem;
+}
+
+label, input {
+    display: block;
+    margin : 0.1rem;
+}
+
+footer {
+    margin: 2rem;
+}
+
+table {
+    display: flex;
+    flex-flow: column;
+}
+
+fieldset {
+    width: min-content;
+}
+
+input {
+    background-color: #DFE0DF;
+}
+
+input[type="submit"], tfoot {
+    background-color: #2b1f21;
+    color: #e8ebe8;
+}
+
+.alerta_alerta_exito, .alerta_alerta_error {
+    color: white;
+}
+
+.alerta_alerta_exito {
+    background-color: green;
+}
+
+.alerta_alerta_error {
+    background-color: red;
+}

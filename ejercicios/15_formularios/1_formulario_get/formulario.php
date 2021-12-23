@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Formulario</h1>
-        <form action="recibir.php" method="GET">
+        <form action="recibir.php" method="get">
             <p>
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" />

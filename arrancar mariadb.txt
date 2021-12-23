@@ -1,0 +1,5 @@
+arrancar mariadb:
+
+arrancar xampp
+cd bin
+./mysql -u root
